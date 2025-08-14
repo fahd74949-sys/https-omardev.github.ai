@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Dev - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .skill, .project {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Omar Dev</h1>
+        <p>مطور ويب شامل | مهتم بالذكاء الاصطناعي وواجهات المستخدم</p>
+    </header>
+
+    <section>
+        <h2>المهارات</h2>
+        <div class="skills">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Python</div>
+            <div class="skill">Django</div>
+            <div class="skill">MongoDB</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>المشاريع</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/300x200" alt="مشروع 1">
+                <h3>منصة متجر إلكتروني</h3>
+                <p>تطوير متجر إلكتروني متكامل باستخدام React و Node.js مع نظام دفع آمن.</p>
+                <a href="#">عرض المشروع</a>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300x200" alt="مشروع 2">
+                <h3>تطبيق مهام ذكي</h3>
+                <p>تطبيق لإدارة المهام يستخدم خوارزميات ذكاء اصطناعي لتنظيم الوقت.</p>
+                <a href="#">عرض المشروع</a>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300x200" alt="مشروع 3">
+                <h3>لوحة تحكم للشركات</h3>
+                <p>لوحة تحكم تفاعلية لإدارة بيانات العملاء والمبيعات باستخدام Django و Chart.js.</p>
+                <a href="#">عرض المشروع</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>© 2025 Omar Dev - جميع الحقوق محفوظة</p>
+    </div>
+</body>
+</html>
